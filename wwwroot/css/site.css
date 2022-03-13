@@ -1,0 +1,119 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 300px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table{
+    width: 320px;
+}
+
+label {
+    background: rgb(228, 228, 228);
+    width: 320px;
+    font-size: 32pt;
+}
+
+.panellMRbuttons {
+    width: 100%;
+    height: 40px;
+    color: black;
+    /*border-radius: 10px;*/
+    /*padding: 50px 15px;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    position: relative;
+    display: inline-block;
+    /*box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);*/
+    outline: none;
+}
+
+.panell6buttons {
+    width: 100%;
+    height: 60px;
+    color: black;
+    /*border-radius: 10px;*/
+    /*padding: 10px 25px;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    position: relative;
+    display: inline-block;
+    /*box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);*/
+    outline: none;    
+}
+
+.panell4buttons {
+    width: 100%;
+    height: 60px;
+    color: black;
+    /*border-radius: 10px;*/
+    /*padding: 10px 25px;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    position: relative;
+    display: inline-block;
+    /*box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);*/
+    outline: none;
+}
+
+.btn-MR {
+    /*background: rgb(6,14,131);*/
+    /*background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);*/
+    background: rgb(228, 228, 228);
+    border: none;
+}
+    .btn-MR:hover {
+        /*background: rgb(6,14,131);*/
+        /*background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);*/
+        background: rgb(189, 187, 187);
+        border: none;
+    }
+
+
+.btn-4 {
+    /*background: rgb(6,14,131);*/
+    /*background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);*/
+    background: rgb(248, 248, 248);
+    border: none;
+}
+    .btn-4:hover {
+        /*background: rgb(0,3,255);*/
+        /*background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);*/
+        background: rgb(189, 187, 187);
+    }
+
+.btn-6 {
+    /*background: rgb(6,14,131);*/
+    /*background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);*/
+    background: rgb(238, 238, 238);
+    border: none;
+}
+
+    .btn-6:hover {
+        /*background: rgb(0,3,255);*/
+        /*background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);*/
+        background: rgb(189, 187, 187);
+    }
+
